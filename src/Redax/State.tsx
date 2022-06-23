@@ -1,5 +1,6 @@
 import {v1} from "uuid";
 
+
 export let State = {
     posts:[
         {id: v1(), message: '"Hi, how are you?"', likesCount: '12' },
@@ -18,3 +19,8 @@ export let State = {
         {id: v1(), message: 'How is your IT'},
     ],
 }
+
+
+
+
+
